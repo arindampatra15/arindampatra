@@ -85,6 +85,9 @@
         row-gap: 1rem;
         text-align: left;
     }
+    .contact .contact-content{
+        padding: 8% 6% 0 6%;
+    }
     
     .contact .contact-content .about-content-sections .left-section{
         width: 100%;

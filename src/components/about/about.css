@@ -42,6 +42,9 @@
 /* Max width 480*/
 @media screen and (max-width: 480px) {
 
+    .about .about-content{
+        padding: 8% 6% 0 6%;
+    }
     .about .about-content .about-title{
         text-align: left;
         font-size: 24px;
