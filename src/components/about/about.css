@@ -1,0 +1,77 @@
+.about{
+    background-image: linear-gradient(to right, #F4F8F8, #EAF7F6 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.about .about-content{
+    padding: 8% 10% 0 10%;
+}
+
+.about .about-content .about-title{
+    text-align: left;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.about .about-content .about-content-sections{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.about .about-content .about-content-sections .left-section{
+    width: 45%;
+    font-size: 34px;
+    font-weight: 700;
+    color: #4169e1;
+}
+
+.about .about-content .about-content-sections .right-section{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 1.8;
+    color: #000000;
+
+}
+
+/* Max width 480*/
+@media screen and (max-width: 480px) {
+
+    .about .about-content .about-title{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .about .about-content .about-content-sections{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .about .about-content .about-content-sections .left-section{
+        width: 100%;
+        font-size: 22px;
+        font-weight: 700;
+        color: #4169e1;
+    }
+    
+    .about .about-content .about-content-sections .right-section{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        line-height: 1.8;
+        color: #000000;
+        margin-bottom: 30px;
+    
+    }
+
+}

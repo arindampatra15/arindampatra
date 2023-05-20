@@ -1,0 +1,114 @@
+.contact{
+    background-image: linear-gradient(to right, #F4F8F8, #EAF7F6 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact .contact-content{
+    padding: 8% 10% 0 10%;
+}
+
+.contact .contact-content .about-content-sections{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contact .contact-content .about-content-sections .left-section{
+    width: 46%;
+}
+.contact .contact-content .about-content-sections .left-section .title{
+    font-size: 38px;
+    font-weight: 600;
+}
+.contact .contact-content .about-content-sections .left-section .subtitle{
+    font-size: 18px;
+}
+
+.contact .contact-content .about-content-sections .right-section{
+    width: 46%;
+}
+
+.contact .contact-content .about-content-sections .right-section form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.about-content-sections .right-section form .form-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+}
+.about-content-sections .right-section form .form-input input{
+    height: 40px;
+    width: 100%;
+    padding: 2px 8px;
+    outline: none;
+    background-color: #F9F9F9;
+    border: 1px solid #D1D3D3;
+}
+.about-content-sections .right-section form .form-input #messageArea{
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    padding: 2px 8px;
+    outline: none;
+    background-color: #F9F9F9;
+    border: 1px solid #D1D3D3;
+}
+.about-content-sections .right-section form .name{
+    display: flex;
+    justify-content: space-between;
+}
+.about-content-sections .right-section form .name div{
+    width: 45%;
+}
+
+.about-content-sections .right-section form .message input{
+    height: 100px;
+}
+
+.about-content-sections .right-section form .form-button button{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #4169e1;
+    cursor: pointer;
+}
+
+/* Max width 480*/
+@media screen and (max-width: 480px) {
+
+    .contact .contact-content .about-content-sections{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: left;
+    }
+    
+    .contact .contact-content .about-content-sections .left-section{
+        width: 100%;
+    }
+    .contact .contact-content .about-content-sections .left-section .title{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .contact .contact-content .about-content-sections .left-section .subtitle{
+        font-size: 16px;
+    }
+    
+    .contact .contact-content .about-content-sections .right-section{
+        width: 100%;
+    }
+    
+    .about-content-sections .right-section form .form-button button{
+        border: none;
+        background: transparent;
+        font-size: 14px;
+        color: #4169e1;
+        cursor: pointer;
+    }
+
+}

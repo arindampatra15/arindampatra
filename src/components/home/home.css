@@ -1,0 +1,218 @@
+.home {
+  background-image: linear-gradient(to right, #F4F8F8, #EAF7F6 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home .home-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8% 10% 0 10%;
+}
+
+.home .home-content .left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  text-align: left;
+}
+
+.home .home-content .left-section .intro {
+  font-size: 18px;
+  font-weight: 600;
+  color: #525151;
+}
+.left-section .intro .underline {
+  width: 80px;
+  border-bottom: 3px solid #525151;
+}
+
+.home .home-content .left-section .name {
+  line-height: 0.4;
+}
+.home .home-content .left-section .name .title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.home .home-content .left-section .name .subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #525151;
+  line-height: normal;
+
+  /* For Type Writting */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.10em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.home .home-content .left-section .connect {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.left-section .connect div {
+  display: flex;
+  cursor: pointer;
+}
+.left-section .connect i {
+  color: #4169e1;
+  font-size: 38px;
+}
+.left-section .connect span {
+  font-size: 20px;
+  margin-left: 12px;
+}
+
+.home .home-content .right-section img{
+    width: 90%;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+
+  .home .home-content .left-section {
+    width: 75%;
+    row-gap: 1rem;
+  }
+  .home .home-content .left-section .intro {
+    font-size: 16px;
+    font-weight: 600;
+    color: #525151;
+  }
+  .left-section .intro .underline {
+    width: 80px;
+    border-bottom: 3px solid #525151;
+  }
+  
+  .home .home-content .left-section .name {
+    line-height: 0;
+  }
+  .home .home-content .left-section .name .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .home .home-content .left-section .name .subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #525151;
+    line-height: normal;
+  }
+  .home .home-content .right-section img{
+    width: 150%;
+    float: right;
+}
+
+.home .home-content .left-section .connect {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.left-section .connect div {
+  display: flex;
+  cursor: pointer;
+}
+.left-section .connect i {
+  color: #4169e1;
+  font-size: 24px;
+}
+.left-section .connect span {
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+}
+
+/* Max width 420 */
+@media screen and (max-width: 420px) {
+  .home .home-content .left-section .name .subtitle {
+    font-size: 12px !important;
+    font-weight: 600;
+    color: #525151;
+    line-height: normal;
+  }
+}
+
+/* Max width 390 */
+@media screen and (max-width: 390px) {
+
+  .home .home-content .left-section {
+    width: 75%;
+    row-gap: 1rem;
+  }
+  .home .home-content .left-section .intro {
+    font-size: 15px !important;
+    font-weight: 600;
+    color: #525151;
+  }
+  .left-section .intro .underline {
+    width: 75px;
+    border-bottom: 3px solid #525151;
+  }
+  
+  .home .home-content .left-section .name {
+    line-height: 0;
+  }
+  .home .home-content .left-section .name .title {
+    font-size: 22px !important;
+    font-weight: 700;
+  }
+  .home .home-content .left-section .name .subtitle {
+    font-size: 11px !important;
+    font-weight: 600;
+    color: #525151;
+    line-height: normal;
+  }
+  .home .home-content .right-section img{
+    width: 150%;
+    float: right;
+}
+
+.home .home-content .left-section .connect {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.left-section .connect div {
+  display: flex;
+  cursor: pointer;
+}
+.left-section .connect i {
+  color: #4169e1;
+  font-size: 22px;
+}
+.left-section .connect span {
+  font-size: 16px;
+  margin-left: 11px;
+}
+
+}
+

@@ -1,0 +1,11 @@
+.interest div{
+    text-align: center;
+    height: 100vh;
+}
+
+/* Max width 480*/
+@media screen and (max-width: 480px) {
+    .interest div{
+        font-size: 12px;
+    }
+}

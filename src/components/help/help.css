@@ -1,0 +1,53 @@
+.help{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.help .help-container{
+    position: relative;
+}
+
+.help .help-container .help-icon{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #D2F8F6;
+    cursor: pointer;
+}
+
+.help .help-container .help-icon i{
+    font-size: 26px;
+}
+
+.help .help-container .help-text{
+    position: absolute;
+    right: 75px;
+    bottom: 2px;
+    width: 150px;
+    height: 50px;
+    padding: 12%;
+    display: none;
+    justify-content: space-between;
+    border: 1px solid #D2F8F6;
+    background-color: #D2F8F6;
+    cursor: pointer;
+}
+.help .help-container .help-text i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Max width 480*/
+@media screen and (max-width: 480px) {
+    .help{
+        bottom: 20px;
+        right: 20px;
+    }
+    .help .help-container .help-icon{
+        padding: 0.8rem;
+    }
+    
+    .help .help-container .help-icon i{
+        font-size: 22px;
+    }
+}
