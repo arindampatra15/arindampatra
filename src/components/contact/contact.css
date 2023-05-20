@@ -43,7 +43,6 @@
 }
 .about-content-sections .right-section form .form-input input{
     height: 40px;
-    width: 100%;
     padding: 2px 8px;
     outline: none;
     background-color: #F9F9F9;
@@ -52,7 +51,6 @@
 .about-content-sections .right-section form .form-input #messageArea{
     height: auto;
     min-height: 100px;
-    width: 100%;
     padding: 2px 8px;
     outline: none;
     background-color: #F9F9F9;

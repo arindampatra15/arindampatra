@@ -97,6 +97,9 @@
 
 @media screen and (max-width: 768px) {
 
+  .home .home-content {
+    padding: 8% 8% 0 8%;
+  }
   .home .home-content .left-section {
     width: 75%;
     row-gap: 1rem;
@@ -119,7 +122,7 @@
     font-weight: 700;
   }
   .home .home-content .left-section .name .subtitle {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     color: #525151;
     line-height: normal;
@@ -153,7 +156,7 @@
 /* Max width 420 */
 @media screen and (max-width: 420px) {
   .home .home-content .left-section .name .subtitle {
-    font-size: 12px !important;
+    font-size: 11px !important;
     font-weight: 600;
     color: #525151;
     line-height: normal;
@@ -185,7 +188,7 @@
     font-weight: 700;
   }
   .home .home-content .left-section .name .subtitle {
-    font-size: 11px !important;
+    font-size: 10px !important;
     font-weight: 600;
     color: #525151;
     line-height: normal;
@@ -207,10 +210,10 @@
 }
 .left-section .connect i {
   color: #4169e1;
-  font-size: 22px;
+  font-size: 20px;
 }
 .left-section .connect span {
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 11px;
 }
 
