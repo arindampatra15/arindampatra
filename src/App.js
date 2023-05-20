@@ -10,7 +10,7 @@ import Myworks from "./components/myworks/myworks";
 import Help from './components/help/help'
 import Error from './components/error/error';
 
-import { createBrowserRouter , RouterProvider , Outlet } from 'react-router-dom';
+import { createHashRouter , RouterProvider , Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
   );
 }
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   {
     path : "/",
     element : <App />,
